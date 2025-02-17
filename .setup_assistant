@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur_simulation_gz
+    relative_path: urdf/ur10.urdf
+  srdf:
+    relative_path: config/ur.srdf
+  package_settings:
+    author_name: Hoosang Lee
+    author_email: lhs223@gmail.com
+    generated_timestamp: 1739759479
