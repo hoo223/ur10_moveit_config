@@ -20,7 +20,9 @@ ur10_arm_controller:
       - wrist_2_joint
       - wrist_3_joint
     command_interfaces:
-      []
+      - position
+      - velocity
     state_interfaces:
-      []
+      - position
+      - velocity
     allow_nonzero_velocity_at_trajectory_end: true
